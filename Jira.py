@@ -13,9 +13,8 @@ def createJira():
 
     url = "https://veeramallaabhishek.atlassian.net/rest/api/3/issue"
 
-    API_TOKEN="ATATT3xFfGF009KOiVEkOreq2-t-BYIiYEKmhOlHfEb0eUVSsDmxsUn1H8aAaw7m26iBDo-edAv6ZikQ9hNx5tUxxlVq7qK4OYWi0Y6sv6GcfEUljM0UpAMU2VEhauQFsPJ5Fg2ejEOuHU98AHGs2SYX_32hgeljTy4qxgAUTBjNLscGbUxizT0=27A8EA9C"
-
-    auth = HTTPBasicAuth("jagadeeshkumar242@gmail.com", API_TOKEN)
+    API_TOKEN=""
+    auth = HTTPBasicAuth("", API_TOKEN)
 
     headers = {
         "Accept": "application/json",
